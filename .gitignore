@@ -1,0 +1,9 @@
+model.py
+train.py
+__pycache__/load_cityscapes_data.cpython-35.pyc
+__pycache__/resnet18.cpython-35.pyc
+__pycache__/resnet18_linknet.cpython-35.pyc
+logs/model/*
+logs/test/*
+logs/train/*
+
