@@ -8,7 +8,7 @@ This repository is tensorFlow implementation of  LinkNet: Exploiting Encoder Rep
 ## Dependencies:
 
 + Python 3.5 or greater
-+ Tensorflow or greater
++ [Tensorflow](https://www.tensorflow.org) or greater
 + [OpenCV3](https://opencv.org/)
 ****
 
