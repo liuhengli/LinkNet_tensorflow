@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import tensorflow as tf
+from tensorflow.contrib import slim
 """
 -------------------------------------------------
    File Name：     resnet18
@@ -14,16 +16,12 @@
 """
 __author__ = 'liuhengli'
 
-import tensorflow as tf
-from tensorflow.contrib import slim
-
 _BATCH_NORM_DECAY = 0.997
 _BATCH_NORM_EPSILON = 1e-5
 
 
 def conv2d_same(inputs, filters, kernel_size, stride, rate=1, scope=None):
   """Strided 2-D convolution with 'SAME' padding.
-
   When stride > 1, then we do explicit zero-padding, followed by conv2d with
   'VALID' padding.
 

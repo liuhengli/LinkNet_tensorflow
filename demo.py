@@ -1,8 +1,24 @@
+# -*- coding: utf-8 -*-
 import numpy as np
 import tensorflow as tf
 import cv2
 import os
 from resnet18_linknet import LinkNet_resnt18
+
+"""
+-------------------------------------------------
+   File Name：     resnet18
+   version:        v1.0 
+   Description :
+   Author :       liuhengli
+   date：          18-1-18
+   license:        Apache Licence
+-------------------------------------------------
+   Change Activity:
+                   18-1-18:
+-------------------------------------------------
+"""
+__author__ = 'liuhengli'
 
 
 def label_img_to_color(img):

@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 import tensorflow as tf
 import time
-from tensorflow.contrib import slim
 from load_cityscapes_data import SegmentedData
 from resnet18_linknet import LinkNet_resnt18
 import datetime
 import os
 import numpy as np
 import cv2
-import random
 import matplotlib.pyplot as plt
 
 """

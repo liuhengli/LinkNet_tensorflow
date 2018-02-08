@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+import cv2
+import pickle
+import os
+import numpy as np
+import tensorflow as tf
+from collections import namedtuple
+import random
 """
 -------------------------------------------------
    File Name：     load_cityscapes_data
@@ -13,15 +20,6 @@
 -------------------------------------------------
 """
 __author__ = 'liuhengli'
-
-
-import cv2
-import pickle
-import os
-import numpy as np
-import tensorflow as tf
-from collections import namedtuple
-import random
 
 
 def find_classes(root_dir):
