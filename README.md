@@ -1,9 +1,9 @@
 # LinkNet_tensorflow
 
-TensorFlow implementation of LinkNet (https://arxiv.org/abs/1707.03718) and the official Torch implementation (https://github.com/e-lab/LinkNet) and the pytorch implementation by PavlosMelissinos (https://github.com/e-lab/pytorch-linknet), trained on the Cityscapes dataset (https://www.cityscapes-dataset.com/).
+This repository is tensorFlow implementation of  LinkNet: Exploiting Encoder Representations for Efficient Semantic Segmentation (https://arxiv.org/abs/1707.03718) and the official Torch implementation (https://github.com/e-lab/LinkNet) and the pytorch implementation by PavlosMelissinos (https://github.com/e-lab/pytorch-linknet), trained on the Cityscapes dataset (https://www.cityscapes-dataset.com/).
 
-- Youtube video of results (https://youtu.be/HbPhvct5kvs):
-- [![demo video with results](https://img.youtube.com/vi/HbPhvct5kvs/0.jpg)](https://youtu.be/HbPhvct5kvs)
+- The video of results (logs/results/cityscapes_stuttgart_02_pred.avi):
+- [![demo video with results](https://github.com/liuhengli/LinkNet_tensorflow/blob/9347a58539662fdfa59d64c40b047f17ae21b50a/logs/results/stuttgart_02_000000_005100_leftImg8bit_pred.png)](https://github.com/liuhengli/LinkNet_tensorflow/blob/9347a58539662fdfa59d64c40b047f17ae21b50a/logs/results/cityscapes_stuttgart_02_pred.avi)
 
 ## Dependencies:
 
